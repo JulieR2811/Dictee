@@ -1,0 +1,190 @@
+﻿
+@{
+
+    var reponse1 = Request.Form["question1"];
+    var reponse2 = Request.Form["question2"];
+    var reponse3 = Request.Form["question3"];
+    var reponse4 = Request.Form["question4"];
+    var reponse5 = Request.Form["question5"];
+    var reponse6 = Request.Form["question6"];
+    var reponse7 = Request.Form["question7"];
+    var reponse8 = Request.Form["question8"];
+    var reponse9 = Request.Form["question9"];
+    var reponse10 = Request.Form["question10"];
+    var reponse11 = Request.Form["question11"];
+    var reponse12 = Request.Form["question12"];
+
+}
+
+<h3>Les verbes du premier groupe </h3>
+
+@using (Html.BeginForm("ResultConjugaison", "Home"))
+{
+
+    <p>
+        Ils l'
+        <select name="question5">
+            <option value="">imparfait</option>
+            <option value="1">appelaient</option>
+            <option value="2">avaient appelé</option>
+            <option value="3">appelèrent</option>
+        </select>
+
+        lorsque le directeur rentra.
+    </p>
+
+
+    <p>
+        Si j'utilise cette réduction, je
+        <select name="question6">
+            <option value="">conditionnel présent</option>
+            <option value="1">aurai payé</option>
+            <option value="2">paierai</option>
+            <option value="3">paierais</option>
+        </select>
+
+        moins cher mon vol.
+    </p>
+
+    <p>
+        Je
+        <select name="question7">
+            <option value="">passé simple</option>
+            <option value="1">jetai</option>
+            <option value="2">jetais</option>
+            <option value="3">ai jeté</option>
+        </select>
+        les poubelles quand il est arrivé.
+    </p>
+
+    <p>
+        Il faut que nous
+        <select name="question8">
+            <option value="">subjonctif présent</option>
+            <option value="1">avons déballé</option>
+            <option value="2">déballâmes</option>
+            <option value="3">déballions</option>
+        </select>
+
+        les cadeaux avant minuit.
+    </p>
+
+
+    <h3>>Les verbes du deuxieme groupe</h3>
+
+
+    <p>
+        Il
+        <select name="question9">
+            <option value="">plus que parfait</option>
+            <option value="1">s'est tapi</option>
+            <option value="2">s'était tapi</option>
+            <option value="3">se tapissait</option>
+        </select>
+
+        sous son lit.
+    </p>
+
+
+    <p>
+
+        <select name="question10">
+            <option value="">Impératif présent</option>
+            <option value="1">unissions</option>
+            <option value="2">unirons</option>
+            <option value="3">unissons</option>
+        </select>
+
+        nos forces.
+    </p>
+
+    <p>
+        Vous
+        <select name="question11">
+            <option value="">présent indicatif</option>
+            <option value="1">remplissez</option>
+            <option value="2">remplîtes</option>
+            <option value="3">remplirez</option>
+        </select>
+
+        la bassine.
+    </p>
+
+    <p>
+        Nous nous
+        <select name="question12">
+            <option value="">futur antérieur</option>
+            <option value="1">languirons</option>
+            <option value="2">serons languis</option>
+            <option value="3">étions languis</option>
+        </select>
+
+        sans toi.
+    </p>
+
+
+
+    <h3>Les verbes du troisième groupe</h3>
+
+
+    <p>
+        Il a
+        <select name="question1">
+            <option value="">passé composé</option>
+            <option value="1">dissous</option>
+            <option value="2">dissoud</option>
+            <option value="3">dissout</option>
+        </select>
+
+        son groupe.
+    </p>
+
+
+    <p>
+        Grace à ce site, tu
+        <select name="question2">
+            <option value="">présent</option>
+            <option value="1">acquiert</option>
+            <option value="2">acquiers</option>
+            <option value="3">acquierd</option>
+        </select>
+
+        de bonnes connaissances.
+    </p>
+
+    <p>
+        J'
+        <select name="question3">
+            <option value="">futur</option>
+            <option value="1">acroitrai</option>
+            <option value="2">accroiterai</option>
+            <option value="3">accroîtrai</option>
+        </select>
+
+        mon score au QCM.
+    </p>
+
+    <p>
+        Nous
+        <select name="question4">
+            <option value="">conditionnel passé</option>
+            <option value="1">aurions accueilli</option>
+            <option value="2">aurons accueilli</option>
+            <option value="3">accueillerons</option>
+        </select>
+
+        volontairement la meute de loups.
+    </p>
+
+
+
+    <p> <input type="submit" value="Valider mes reponses" /></p>
+
+
+
+    <p><strong>Besoin de réviser vos temps :</strong><a href="https://bescherelle.com/" target="_blank"><img src="https://certification-bescherelle.fr/sites/default/files/2019-09/Bescherelle-logo.png" alt="bescherelle" height="50px"/></a></p>
+
+
+
+
+        }
